@@ -1,4 +1,9 @@
-# PUNTOS DESTACADOS y DE MEJORA
+# PRUEBA DE MAQUETACIÓN
+
+Este proyecto es una prueba de maquetación realizada en el proceso de selección para un puesto de desarrollador/maquetador web.
+La prueba se ha realizado en un plazo de 2 días para cumplir con los requisitos.
+
+## PUNTOS DESTACADOS y DE MEJORA
 
 - El diseño no es Responsive, se ha reproducido la Home Page, según la web original y el mockup proporcionado, es decir en una versión desktop de dispositivos
 - El diseño se ha realizado con una pantalla de resolución de 1920x1080 y una relación de aspecto de 16:9.
