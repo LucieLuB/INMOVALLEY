@@ -1,0 +1,82 @@
+@import "variables";
+@import "blocks/footer.scss";
+@import "blocks/header.scss";
+@import "blocks/imgBienvenida";
+@import "blocks/reserchBar";
+@import "blocks/imgElige";
+@import "blocks/propiedadMes";
+@import "blocks/vende";
+@import "blocks/destacados";
+@import "blocks/descripcion";
+@import "blocks/form";
+@import "blocks/noticas";
+
+/*-----ESTILOS DE ELEMETOS QUE NO PERTENECE A NINGUN TIPO DE BLOQUE----*/
+
+h1 { color: $terciaryColor; }
+
+
+body {
+    font-family: 'Montserrat';
+    background-color: $primaryColor; 
+}
+
+.fixed-button {
+    position: fixed;
+    right: 0%;
+    bottom: 40%; 
+    z-index: 1000;  
+}
+
+.fixed-button button {
+    background-color: $secundaryColor;
+    padding: 4px 10px;
+    color: white;
+    border-radius: 0;
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.1);  
+}
+
+.form-button {
+    margin-top: 15px;
+    margin-left: 150px;
+    margin-bottom: 50px;
+}
+
+.form-button button {
+    padding: 10px 50px;
+    border-radius: 0;
+    border: none;
+}
+
+.btn1 { background-color: $fourthColor; }
+
+.btn1:hover { background-color: $primaryColor; }
+
+.btn2 { background-color: $secundaryColor; }
+
+.btn2:hover { background-color: $terciaryColor; }
+
+.parallax { max-width: 100%; }
+
+.whatsapp {
+    position: fixed; 
+    bottom: 20px; 
+    right: 20px; 
+    z-index: 1000;
+}
+
+.whatsapp button {
+    background-color: transparent;
+    border: none;
+}
+
+a:hover { color: white; }
+
+
+
+
+
+
+
+
+

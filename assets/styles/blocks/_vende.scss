@@ -1,0 +1,38 @@
+.vende {
+    margin: 120px;
+    display: flex; 
+}
+
+.vendeItem1 { 
+    flex: 2; 
+
+    img { margin-bottom: 50px; }
+
+    .h3Vende {
+        color: white;
+        font-size: 65px; 
+        line-height: 0.7;
+
+        span {
+            font-family: 'Caveat';
+            color: $secundaryColor;
+        }
+    }
+
+}
+
+
+.buttonVende {
+    font-weight: bold;
+    margin-top: 30px;
+    padding: 15px 80px;
+    border: none;
+    border-radius: 0;
+    background-color: $secundaryColor;
+}
+
+.imgFondo {
+    opacity: 0.02;
+    position: absolute;
+    top: 320%;
+}

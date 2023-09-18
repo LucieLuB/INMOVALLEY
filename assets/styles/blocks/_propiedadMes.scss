@@ -1,0 +1,51 @@
+.ref {
+    background-color: #3c4146;
+    width: 30%;
+    padding: 20px;
+    position: absolute;
+    top: 304%;
+    left: 50%;
+
+    .spanRef {
+        background-color: $secundaryColor;
+        margin-left: -20px;
+        padding-left: 20px;
+        padding-right: 10px;
+        color: white;
+        font-weight: 600;
+    }
+
+    img {
+        margin-left: 370px;
+    }
+}
+
+.h3Propiedad {
+    margin-top: 200px;
+    text-align: center;
+    color: white;
+    font-size: 70px; 
+    line-height: 0.7;
+    margin-bottom: 100px;
+}
+
+.spanh3 {
+    font-family: 'Caveat';
+    color: $secundaryColor;    
+}
+
+.img-ref {
+    margin-left: 120px;
+    position: relative;
+}
+
+.ref h4, .ref p { color: white; }
+
+h4 { font-weight: bold; }
+
+.ref p:last-child {
+    color: $terciaryColor;
+    font-size: 30px;
+}
+
+

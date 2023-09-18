@@ -1,0 +1,38 @@
+.descripcion {
+    display: flex;
+    margin-top: 100px;
+}
+
+.d2 { padding: 60px; }
+
+.p1 {
+    color: $secundaryColor;
+    line-height: 2;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.p2 {
+    color: white;
+    line-height: 1.8;
+}
+
+.d2 img { margin-top: -60px; }
+
+.d2 button {
+    background-color: $primaryColor;
+    border: 2px solid $secundaryColor;
+    color: $secundaryColor;
+    font-weight: 600;
+    padding: 20px 40px;
+}
+
+.d2 button:hover {
+    background-color: $terciaryColor;
+    color: white;
+    -webkit-transition-duration: 0.4s; /* Safari */
+        transition-duration: 1s;
+}
+
+
+

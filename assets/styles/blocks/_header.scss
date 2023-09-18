@@ -1,0 +1,55 @@
+.header {
+    background-color: $primaryColor;
+    color: white;
+    padding: 20px;
+    font-size: 16px;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    padding: 20px 140px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+}
+
+ ul {
+    list-style: none;
+    padding: 0;
+}
+
+ li {
+    display: inline;
+    padding-right: 20px;   
+}
+
+nav, ul { font-weight: 600; }
+
+a {
+    color: white;
+    text-decoration: none;
+    }
+
+.item1 {
+    display: flex;
+    justify-content: right;
+}
+
+.item1 div { padding-right: 20px; }
+
+.active {
+    background-color: $secundaryColor;
+    padding: 10px;
+}
+
+.menu-nav{ margin-top: 20px; }
+
+.contenidoHeader1 li { margin-right: 10px; }
+
+.btn-idioma {
+    background-color: $primaryColor;
+    border: none;
+}
+

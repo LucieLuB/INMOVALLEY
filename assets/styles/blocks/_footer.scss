@@ -1,0 +1,26 @@
+footer { text-align: center; }
+
+.logoFooter { padding: 80px; }
+
+footer p { font-size: 40px; }
+
+footer ul { padding-top: 30px; }
+
+.divFooter1 { padding-bottom: 80px; }
+
+.divFooter2 {
+    background-color: $secundaryColor;
+    padding-bottom: 20px;
+}
+
+.divFooter2 a { font-weight: 200; }
+
+.divFooter2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.divFooter1 li a:hover {
+    background-color: $secundaryColor;
+    padding: 10px;
+}
